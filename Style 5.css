@@ -1,0 +1,140 @@
+
+ * {
+    margin: auto;
+    padding: 0;
+    box-sizing:border-box;
+}
+.banner_1{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(10, 29, 201);
+}
+.container_1{
+    width: 1250px;
+    height: 90vh;
+    background-color: #fff;
+  
+  
+}
+.background_1{
+    width: 1250px;
+    height: 94vh;
+    background:-webkit-repeating-linear-gradient(rgb(19, 18, 18,0.60),rgb(19, 7, 7,0.20)),url(Img/natural.jpg);
+    background-repeat: no-repeat;
+    background-size: 1250px 80vh;
+    box-shadow:  8px 12px 4px rgb(15, 14, 14,0.60);
+
+}
+.slider_1{
+    top:83%;
+    position: absolute;
+    font-size: 28px;
+    font-weight:bold;
+    margin-left: 130px;
+    text-transform: uppercase;
+}
+marquee{
+    margin-top:41%;
+    margin-left: 10%;
+    color:rgb(248, 12, 12);
+    font-size:22px;
+    font-weight: bold;
+}
+.logo{
+    top:0;
+    position: absolute;
+}
+.menu-create{
+    width: 50%;
+    height: ;
+    align-items: ;
+    justify-content:space-between ;
+    font-weight: normal;
+    background-color: ;
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+    margin:auto;
+   
+}
+#Menu li{
+    list-style-type: none;
+    display: inline;
+    margin:10px 20px 20px 14px;
+    position: relative;
+   
+
+}
+#Menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+}
+#Menu li::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    background: aqua;
+    position: absolute;
+    left: 0;
+    bottom:-8px;
+    transition: 0.4s;
+
+}
+#Menu li:hover::after{
+    width:100%;
+}
+
+.banner_2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(175, 175, 197);
+    margin-top: 70px;
+ }
+ .container_2{
+     width:1250px;
+     height: 90vh;
+     background-color:cadetblue;
+ }
+ .btn_1{
+     text-align: center;
+
+ }
+ .bt-1{
+     width: 140px;
+     height:36px;
+     border-radius: 25px;
+     position:relative;
+     background: none;
+     border:2px solid rgb(9, 114, 126);
+     padding: 5px;
+     color:#fff;
+     font-size:18px;
+     margin:200px;
+     z-index: 1;
+     cursor: pointer;
+     overflow: hidden;
+ }
+ .bt-1::after{
+     content:"";
+     width: 0;
+     height: 34px;
+     background: rgb(224, 15, 154);
+     bottom:-1px;
+     left: 0;
+     position: absolute;
+     border-radius:25px;
+     transition: 0.4s;
+     z-index: -1;
+ }
+ .bt-1:hover::after{
+     width: 100%;
+ }
+
+
+ .newdiv{
+     background-color: red;
+     height: 100vh;
+     width: 100%;
+ }
+ .newContainer{}
